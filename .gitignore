@@ -1,0 +1,19 @@
+# Ignorowanie katalogu target, który zawiera wygenerowane pliki JAR
+target/
+
+# Ignorowanie plików Mavena
+*.iml
+*.jar
+*.war
+*.ear
+
+# Ignorowanie plików generowanych przez system
+.idea/
+.vscode/
+
+# Ignorowanie plików i folderów generowanych przez Docker
+*.log
+*.pid
+*.bak
+*.swp
+docker-compose.override.yml
